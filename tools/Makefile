@@ -9,6 +9,9 @@
 curdir:=tools
 
 # subdirectories to descend into
+tools-y += ucl upx
+$(curdir)/upx/compile := $(curdir)/ucl/compile
+
 tools-y :=
 
 ifeq ($(CONFIG_EXTERNAL_TOOLCHAIN),)
