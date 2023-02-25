@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=mklibs
 PKG_VERSION:=0.1.45
 
-PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION).tar.gz
+PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=http://ftp.de.debian.org/debian/pool/main/m/mklibs/
 PKG_HASH:=dd92a904b3942566f713fe536cd77dd1a5cfc62243c0e0bc6bb5d866e37422f3
 
